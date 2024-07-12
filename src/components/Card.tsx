@@ -29,12 +29,12 @@ const UserCard: FC<IUserCard> = ({ user, showDetail, showEdit }) => {
           gridTemplateColumns: { md: '1fr 1fr' },
           gap: 2,
         }}>
-          <Box>
+          <Box 
+            className='hover-pointer'
+            onClick={showDetail}>
             <Typography
-              className="hover-pointer"
               sx={{ margin: 0, fontWeight: 'bold' }}
-              noWrap
-              onClick={showDetail}>
+              noWrap>
               {user.firstName}
             </Typography>
             <Typography sx={{ fontSize: '.9em' }} noWrap>

@@ -62,9 +62,10 @@ const ModalDetailUser: React.FC<ModalProps> = ({ open, user, handleClose }) => {
                 <Typography id="transition-modal-description" fontSize={12}>
                   {user.phone}
                 </Typography>
+                {(user.gender && user.age) &&
                 <Typography id="transition-modal-description" fontSize={12}>
                   {user.gender}, {user.age} years old.
-                </Typography>
+                </Typography>}
               </Stack>
             </Stack>
           </Box>
