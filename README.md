@@ -12,13 +12,25 @@ Tech Stack I use on this project :
 - Prettier
 - ESlint
 
+The main feature I implement on this project like
+- list all user using dummy api
+- add, edit, delete user
+- checking user detail by clicking either user name/email in the card
+
 ## Setup Locally
 clone this repo first and then go to the folder and run
-```npm run install```
-can run the project using
-```npm run dev```
+```
+npm run install
+```
+then, can run the project using
+```
+npm run dev
+```
 
 ### Prettier
 to make your code more neat and clean, just use prettier command like this : 
-```npm run format```
-this will adjust your code format as your defined in `.prettierrc.cjs`. you also can modify the rules as you like in that file using this [perttier options](https://prettier.io/docs/en/options) as reference
+```
+npm run format
+```
+this will adjust your code format as your defined in `.prettierrc.cjs`  
+you also can modify the rules as you like in that file using this [perttier options](https://prettier.io/docs/en/options) as reference
